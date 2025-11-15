@@ -1,5 +1,5 @@
 /* BASE */
-.controller.ds4 .base {
+.custom.ds4 .base {
     background-image: url("base.png");
 }
 
@@ -54,3 +54,4 @@
 .controller.ds4 .select {
     background-image: url("select.png");
 }
+
