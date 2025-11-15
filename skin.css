@@ -1,57 +1,70 @@
-/* BASE */
-.custom.ds4 .base {
-    background-image: url("base.png");
+/* CONTENEDOR PRINCIPAL */
+.custom.ds4 {
+    width: 4096px;
+    height: 1714px;
+    position: relative;
 }
 
-/* FACE BUTTONS (Cross, Circle, Square, Triangle) */
-.controller.ds4 .button.cross {
+/* BASE */
+.custom.ds4 .base {
+    width: 4096px;
+    height: 1714px;
+    background-image: url("base.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* BOTONES (Cross, Circle, Square, Triangle) */
+.custom.ds4 .button.cross {
     background-image: url("button-cross.png");
 }
 
-.controller.ds4 .button.circle {
+.custom.ds4 .button.circle {
     background-image: url("button-circle.png");
 }
 
-.controller.ds4 .button.square {
+.custom.ds4 .button.square {
     background-image: url("button-square.png");
 }
 
-.controller.ds4 .button.triangle {
+.custom.ds4 .button.triangle {
     background-image: url("button-triangle.png");
 }
 
 /* DPAD */
-.controller.ds4 .dpad.up {
+.custom.ds4 .dpad.up {
     background-image: url("dpad-up.png");
 }
 
-.controller.ds4 .dpad.down {
+.custom.ds4 .dpad.down {
     background-image: url("dpad-down.png");
 }
 
-.controller.ds4 .dpad.left {
+.custom.ds4 .dpad.left {
     background-image: url("dpad-left.png");
 }
 
-.controller.ds4 .dpad.right {
+.custom.ds4 .dpad.right {
     background-image: url("dpad-right.png");
 }
 
 /* JOYSTICKS */
-.controller.ds4 .stick.left {
+.custom.ds4 .stick.left {
     background-image: url("joy-left.png");
 }
 
-.controller.ds4 .stick.right {
+.custom.ds4 .stick.right {
     background-image: url("joy-right.png");
 }
 
-/* START / OPTIONS BUTTONS */
-.controller.ds4 .start {
+/* START / OPTIONS */
+.custom.ds4 .start {
     background-image: url("start.png");
 }
 
-.controller.ds4 .select {
+.custom.ds4 .select {
     background-image: url("select.png");
 }
-
