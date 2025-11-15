@@ -1,56 +1,56 @@
 /* BASE */
-.controller.ds5 .base {
+.controller.ds4 .base {
     background-image: url("base.png");
 }
 
-/* FACE BUTTONS (PS: Cross, Circle, Square, Triangle) */
-.controller.ds5 .button.cross {
+/* FACE BUTTONS (Cross, Circle, Square, Triangle) */
+.controller.ds4 .button.cross {
     background-image: url("button-cross.png");
 }
 
-.controller.ds5 .button.circle {
+.controller.ds4 .button.circle {
     background-image: url("button-circle.png");
 }
 
-.controller.ds5 .button.square {
+.controller.ds4 .button.square {
     background-image: url("button-square.png");
 }
 
-.controller.ds5 .button.triangle {
+.controller.ds4 .button.triangle {
     background-image: url("button-triangle.png");
 }
 
 /* DPAD */
-.controller.ds5 .dpad.up {
+.controller.ds4 .dpad.up {
     background-image: url("dpad-up.png");
 }
 
-.controller.ds5 .dpad.down {
+.controller.ds4 .dpad.down {
     background-image: url("dpad-down.png");
 }
 
-.controller.ds5 .dpad.left {
+.controller.ds4 .dpad.left {
     background-image: url("dpad-left.png");
 }
 
-.controller.ds5 .dpad.right {
+.controller.ds4 .dpad.right {
     background-image: url("dpad-right.png");
 }
 
 /* JOYSTICKS */
-.controller.ds5 .stick.left {
+.controller.ds4 .stick.left {
     background-image: url("joy-left.png");
 }
 
-.controller.ds5 .stick.right {
+.controller.ds4 .stick.right {
     background-image: url("joy-right.png");
 }
 
 /* START / OPTIONS BUTTONS */
-.controller.ds5 .start {
+.controller.ds4 .start {
     background-image: url("start.png");
 }
 
-.controller.ds5 .select {
+.controller.ds4 .select {
     background-image: url("select.png");
 }
