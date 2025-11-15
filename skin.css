@@ -1,64 +1,67 @@
 .custom.ds4 {
-    width: 4096px;
-    height: 1714px;
-    position: relative;
+  width: 4096px;
+  height: 1714px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/base.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.custom.ds4 .base {
-    width: 4096px;
-    height: 1714px;
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/base.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Limpiar skin original para evitar que se dibujen elementos por defecto */
+.custom.ds4 * {
+  background: none !important;
 }
 
+/* BOTONES (CARA) */
 .custom.ds4 .button.cross {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-cross.png");
+  position: absolute;
+  width: 200px; /* ajustar */
+  height: 200px; /* ajustar */
+  left: 2800px;  /* estimado */
+  top: 900px;    /* estimado */
+  background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-cross.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .custom.ds4 .button.circle {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-circle.png");
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 3000px;  /* estimado */
+  top: 800px;    /* estimado */
+  background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-circle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .custom.ds4 .button.square {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-square.png");
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 2600px;  /* estimado */
+  top: 800px;    /* estimado */
+  background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-square.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .custom.ds4 .button.triangle {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-triangle.png");
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 2800px;  /* estimado */
+  top: 700px;    /* estimado */
+  background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/button-triangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
+/* DPAD */
 .custom.ds4 .dpad.up {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/dpad-up.png");
-}
-
-.custom.ds4 .dpad.down {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/dpad-down.png");
-}
-
-.custom.ds4 .dpad.left {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/dpad-left.png");
-}
-
-.custom.ds4 .dpad.right {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/dpad-right.png");
-}
-
-.custom.ds4 .stick.left {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/joy-left.png");
-}
-
-.custom.ds4 .stick.right {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/joy-right.png");
-}
-
-.custom.ds4 .start {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/start.png");
-}
-
-.custom.ds4 .select {
-    background-image: url("https://raw.githubusercontent.com/yesicagomz/cinnahand-skin/main/select.png");
-}
+  position: absolute;
+  width: 180px;  /* ajustar */
+  height: 180px; /* ajustar */
+  left: 500px;   /* estimado */
+  top: 850px;    /* estimado */
+  background-image: url("https://raw.githubusercontent.com/y
